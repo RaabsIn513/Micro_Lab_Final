@@ -1,0 +1,77 @@
+MPLINK 4.35, Linker
+Linker Map File - Created Tue Mar 15 13:29:32 2011
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0005dc
+ .config_2007_LAB_FINAL.O       code   0x002007    program   0x000002
+ .config_2008_LAB_FINAL.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0002f1      
+                            0x002007    0x002008      
+            755 out of 8454 program addresses used, program memory utilization is 8%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              CharConvert   0x0002d9    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                    Delay   0x000024    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                   DelayW   0x000020    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                  ExitISR   0x00001b    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                   Filter   0x00009a    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+               FilterInit   0x000055    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                      ISR   0x000004    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+          LCD_ClearScreen   0x00013a    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+            LCD_WavgLabel   0x00023d    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              LCD_WavgVal   0x0002bd    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+            LCD_WcurLabel   0x0001cb    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              LCD_WcurVal   0x0001af    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+           LCD_WriteHello   0x000157    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+               LCD_WriteW   0x00019e    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                 LCD_init   0x0000c2    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              LoadNewTMR0   0x000017    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                 MainLoop   0x000054    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+            ServiceTimer0   0x00000a    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+               TableStart   0x0002e2    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+             _.org_1_000F   0x00000f    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                     init   0x000029    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000004    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+            ServiceTimer0   0x00000a    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+             _.org_1_000F   0x00000f    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              LoadNewTMR0   0x000017    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                  ExitISR   0x00001b    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                   DelayW   0x000020    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                    Delay   0x000024    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                     init   0x000029    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                 MainLoop   0x000054    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+               FilterInit   0x000055    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                   Filter   0x00009a    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+                 LCD_init   0x0000c2    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+          LCD_ClearScreen   0x00013a    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+           LCD_WriteHello   0x000157    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+               LCD_WriteW   0x00019e    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              LCD_WcurVal   0x0001af    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+            LCD_WcurLabel   0x0001cb    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+            LCD_WavgLabel   0x00023d    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              LCD_WavgVal   0x0002bd    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+              CharConvert   0x0002d9    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+               TableStart   0x0002e2    program     static C:\Users\Rob\Documents\11_Winter_Quarter\Microsystem_Design\Lab_Final\Lab_Final.asm
+
+

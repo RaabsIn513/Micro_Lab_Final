@@ -1,0 +1,7 @@
+MPLab IDE project
+
+CONTEXT: Our professor allowed us to choose a final project idea so Noah and I came up with a project that uses the dev board's ADC to interface to a microphone and parallel ports that interface to the HD44780 LCD interface. 
+
+IMPORTANT COMPONENTS:
+
+This source contains the HD44780 driver/subroutines that I (Robert Hildebrandt) wrote.
